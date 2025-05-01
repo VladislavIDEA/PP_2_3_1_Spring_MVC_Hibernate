@@ -1,10 +1,10 @@
-package web.dao;
+package web.repository;
 
 import web.models.User;
 
 import java.util.List;
 
-public interface UserDao {
+public interface UserRepository {
     void saveUser(User user);
 
     List<User> getAllUsers();

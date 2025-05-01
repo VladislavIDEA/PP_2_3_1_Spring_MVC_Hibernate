@@ -1,4 +1,4 @@
-package web.dao;
+package web.repository;
 
 import web.models.User;
 import org.springframework.stereotype.Repository;
@@ -8,7 +8,7 @@ import javax.persistence.PersistenceContext;
 import java.util.List;
 
 @Repository
-public class UserDaoImpl implements UserDao {
+public class UserRepositoryImpl implements UserRepository {
 
     @PersistenceContext
     private EntityManager entityManager;

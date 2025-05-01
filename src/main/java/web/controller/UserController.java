@@ -24,7 +24,7 @@ public class UserController {
         return "users";
     }
 
-    @GetMapping("/add") //получем форму для создания
+    @GetMapping("/add")
     public String addUserF(@ModelAttribute("user") User user) {
         return "add";
     }
